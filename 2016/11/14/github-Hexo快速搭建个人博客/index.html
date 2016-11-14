@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="github,Hexo," />
+  <meta name="keywords" content="github Hexo," />
 
 
 
@@ -85,7 +85,9 @@
 
 
 <meta name="description" content="注意 本文主要针对Windows平台和Hexo 3.x
-准备工作下载Git
+
+准备工作
+下载Git
 
 [下载地址] Git官网
 
@@ -98,7 +100,9 @@
 <meta property="og:url" content="https://azumia.github.io/2016/11/14/github-Hexo快速搭建个人博客/index.html">
 <meta property="og:site_name" content="向阳而生">
 <meta property="og:description" content="注意 本文主要针对Windows平台和Hexo 3.x
-准备工作下载Git
+
+准备工作
+下载Git
 
 [下载地址] Git官网
 
@@ -106,11 +110,33 @@
 
 [下载地址] node.js官网
 32位或64位按自己电脑的系统来选择，如果不清楚，可以直接在官网下载32位的，可以兼容64位系统">
-<meta property="og:updated_time" content="2016-11-14T13:00:37.796Z">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard2.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard3.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard4.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard5.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard6.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard7.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard8.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/001.jpg">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard9.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard10.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard11.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard12.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard13.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard14.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard15.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard16.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard17.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard18.png">
+<meta property="og:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard19.png">
+<meta property="og:updated_time" content="2016-11-14T17:21:35.812Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="github+Hexo快速搭建个人博客">
 <meta name="twitter:description" content="注意 本文主要针对Windows平台和Hexo 3.x
-准备工作下载Git
+
+准备工作
+下载Git
 
 [下载地址] Git官网
 
@@ -118,6 +144,7 @@
 
 [下载地址] node.js官网
 32位或64位按自己电脑的系统来选择，如果不清楚，可以直接在官网下载32位的，可以兼容64位系统">
+<meta name="twitter:image" content="http://ogl52fkyl.bkt.clouddn.com/clipboard.png">
 
 
 
@@ -350,7 +377,9 @@
       
         <blockquote>
 <p>注意 本文主要针对Windows平台和Hexo 3.x</p>
-<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><strong>下载Git</strong></p>
+</blockquote>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><blockquote>
+<p><strong>下载Git</strong></p>
 </blockquote>
 <p>[下载地址] <a href="https://git-scm.com/download/" target="_blank" rel="external">Git官网</a></p>
 <blockquote>
@@ -358,6 +387,76 @@
 </blockquote>
 <p>[下载地址] <a href="https://nodejs.org/en/" target="_blank" rel="external">node.js官网</a></p>
 <p>32位或64位按自己电脑的系统来选择，如果不清楚，可以直接在官网下载32位的，可以兼容64位系统<br><a id="more"></a></p>
+<h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><p>分别安装git和node.js安装包，一路下一步即可。</p>
+<h2 id="配置git"><a href="#配置git" class="headerlink" title="配置git"></a>配置git</h2><h3 id="配置本机上git的全局用户名和密码"><a href="#配置本机上git的全局用户名和密码" class="headerlink" title="配置本机上git的全局用户名和密码"></a>配置本机上git的全局用户名和密码</h3><p>安装完Git以后，双击桌面的“Git Bash” 图标，输入以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git config --global user.name &quot;Your Name&quot;</div><div class="line">$ git config --global user.email &quot;email@example.com&quot;</div></pre></td></tr></table></figure>
+<p>其中的用户名和邮箱以自己的来代替即可</p>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard.png" alt="image"></p>
+<h3 id="创建本机的SSH-Key"><a href="#创建本机的SSH-Key" class="headerlink" title="创建本机的SSH Key"></a>创建本机的SSH Key</h3><p>输入一下命令，你需要把邮件地址换成你自己的邮件地址，然后一路回车，使用默认值即可<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</div></pre></td></tr></table></figure></p>
+<p>如果一切顺利的话，可以在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。</p>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard2.png" alt="image"></p>
+<h3 id="配置github"><a href="#配置github" class="headerlink" title="配置github"></a>配置github</h3><p>在github上注册一个自己的账号，注册过程就不详细说了。注册完以后登录github ,点击右上角自己头像右边的小箭头，选择“Settings-SSH and GPG keys”</p>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard3.png" alt="image"></p>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard4.png" alt="image"></p>
+<p>然后，点击页面右边的“Add SSH Key”，填上任意Title，在Key文本框里粘贴刚刚获得到的id_rsa.pub文件的内容，id_rsa.pub用记事本打开就好。</p>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard5.png" alt="image"></p>
+<p>接下来创建自己的仓库，点击“New repository”</p>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard6.png" alt="image"></p>
+<p>填写仓库的名称，<strong>名称请按xx.github.io的格式填写，xx为自己的用户名</strong>，填写完成后点击创建即可。</p>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard7.png" alt="image"></p>
+<p>仓库创建完成后的页面如下，到这里git的配置算基本完成了，接下来要配置一下Hexo。</p>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard8.png" alt="image"></p>
+<h2 id="配置Hexo"><a href="#配置Hexo" class="headerlink" title="配置Hexo"></a>配置Hexo</h2><p>在自己电脑上新建一个空的文件夹，我这里是在e盘下新建了一个Blog文件件，然后右键选择“Git Bash Here”打开git，输入一下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure>
+<p>如果发现没反应则应该是被墙了，则先安装淘宝镜像，命令如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g cnpm --registry=https://registry.npm.taobao.org</div></pre></td></tr></table></figure>
+<p>然后输入安装命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cnpm install -g hexo-cli</div></pre></td></tr></table></figure>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/001.jpg" alt="image"></p>
+<p>出现的WARN可以不用理会,继续输入以下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cnpm install hexo --save</div></pre></td></tr></table></figure>
+<p>安装完成后，输入“hexo -v”查看是否安装正确，接下来在Blog文件夹下输入一下命令初始化hexo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init</div></pre></td></tr></table></figure>
+<p>输入一下命令安装生成器</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cnpm install</div></pre></td></tr></table></figure>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard9.png" alt="image"></p>
+<p>安装完成以后输入一下命令打开hexo服务，就可以在浏览器下输入localhost:4000,就可以在本地看到你的个人博客了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo s</div></pre></td></tr></table></figure>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard10.png" alt="image"></p>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard11.png" alt="image"></p>
+<h2 id="配置上传博客到github上"><a href="#配置上传博客到github上" class="headerlink" title="配置上传博客到github上"></a>配置上传博客到github上</h2><p>打开blog根目录下的_config.yml配置文件，修改一下配置，public_dir项修改成与之前建立的仓库名称一致，修改完后保存</p>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard12.png" alt="image"></p>
+<p>在命令行中输入以下命令，生成hexo博客的静态文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo g</div></pre></td></tr></table></figure>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard13.png" alt="image"></p>
+<p>这时候会发现blog目录下多了一个与仓库名称同名的文件夹，里面存放的就是刚刚生成的网页文件，接下来的任务就是把这些静态文件上传到github上去</p>
+<p>命令行进入到该文件夹，然后输入以下命令初始化工作区</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git init</div></pre></td></tr></table></figure>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard14.png" alt="image"></p>
+<p>输入以下命令将静态文件添加的版本库的缓存区</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git add --all</div></pre></td></tr></table></figure>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard15.png" alt="image"></p>
+<p>输入以下命令将更改提交到版本库，双引号中的内容为自己的更改说明，可按自己情况填写</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git commit -m &quot;git tracks changes&quot;</div></pre></td></tr></table></figure>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard16.png" alt="image"></p>
+<h2 id="上传博客到github上"><a href="#上传博客到github上" class="headerlink" title="上传博客到github上"></a>上传博客到github上</h2><p>打开刚才在github上建立的仓库，复制ssh的地址</p>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard17.png" alt="image"></p>
+<p>在Git命令行窗口中输入以下命令，添加远程库，后面的那串git@….git字符串替换为自己刚才复制的ssh地址</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git remote add origin git@github.com:michaelliao/learngit.git</div></pre></td></tr></table></figure>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard18.png" alt="image"></p>
+<p>最后输入以下命令，将本地的版本库推送到github上的远程库</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git push -u origin master</div></pre></td></tr></table></figure>
+<p>第一次推送按以上的输，以后的推送只要输入一下命令即可</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git push origin master</div></pre></td></tr></table></figure>
+<p><img src="http://ogl52fkyl.bkt.clouddn.com/clipboard19.png" alt="image"></p>
+<p>查看github上的仓库里，是不是已经有了刚才推送的文件，这时候浏览器打开自己的git.io地址，就可以看到自己的博客已经搭建起来啦！</p>
+<blockquote>
+<p>如何新建文章</p>
+</blockquote>
+<p>在blog目录下打开git命令行窗口，输入一下命令,双引号中的内容替换成文章题目</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new &quot;title&quot;</div></pre></td></tr></table></figure>
+<p>然后在blog——source——_post目录下就可以看到自己新建的.md文件了，用编辑工具编写文章，然后重复以上步骤添加到版本库，推送到远程版本库即可。</p>
+<p>本教程完。</p>
 
       
     </div>
@@ -379,7 +478,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/github-Hexo/" rel="tag">#github,Hexo</a>
+            <a href="/tags/github-Hexo/" rel="tag">#github Hexo</a>
           
         </div>
       
@@ -488,7 +587,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -537,7 +636,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作"><span class="nav-number">1.</span> <span class="nav-text">准备工作</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作"><span class="nav-number">1.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装软件"><span class="nav-number">2.</span> <span class="nav-text">安装软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置git"><span class="nav-number">3.</span> <span class="nav-text">配置git</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#配置本机上git的全局用户名和密码"><span class="nav-number">3.1.</span> <span class="nav-text">配置本机上git的全局用户名和密码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建本机的SSH-Key"><span class="nav-number">3.2.</span> <span class="nav-text">创建本机的SSH Key</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置github"><span class="nav-number">3.3.</span> <span class="nav-text">配置github</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置Hexo"><span class="nav-number">4.</span> <span class="nav-text">配置Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置上传博客到github上"><span class="nav-number">5.</span> <span class="nav-text">配置上传博客到github上</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#上传博客到github上"><span class="nav-number">6.</span> <span class="nav-text">上传博客到github上</span></a></li></ol></div>
             
           </div>
         </section>
